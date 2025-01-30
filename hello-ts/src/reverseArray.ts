@@ -1,9 +1,9 @@
-export function reverseArray<T>(arr: Array<T>): Array<T> {
-    let reversedArr: Array<T> = [];
+export function reverseArray<T>(elements: Array<T>): Array<T> {
+    let reversedElements: Array<T> = [];
 
-    for (let i = arr.length - 1; i >= 0; i--) {
-        reversedArr.push(arr[i]);
+    for (let i = elements.length - 1; i >= 0; i--) {
+        reversedElements.push(elements[i]);
     }
 
-    return reversedArr;
+    return reversedElements;
 }
