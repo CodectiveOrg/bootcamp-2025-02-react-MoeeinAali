@@ -1,4 +1,5 @@
 type DateString = `${number}-${number}-${number}T${number}:${number}:${number}.${number}Z`;
+
 interface SortableObject {
     created_at: DateString;
     modified_at?: DateString;

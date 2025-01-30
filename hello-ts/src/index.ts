@@ -1,8 +1,8 @@
-import {reverseArray} from "./reverseArray";
+import {reversedArray} from "./reversedArray";
 import {countNumbers} from "./countNumbers";
 import {sortArray} from "./sortArray";
 
-console.log(reverseArray([undefined, "12345", 2, {name: "moeein", family: "aali"}])) // [ { name: 'moeein', family: 'aali' }, 2, '12345', undefined ]
+console.log(reversedArray([undefined, "12345", 2, {name: "moeein", family: "aali"}])) // [ { name: 'moeein', family: 'aali' }, 2, '12345', undefined ]
 
 console.log(countNumbers([undefined, "12345", 2, {name: "moeein", family: "aali"}, 1.1, Math.PI])) // 3
 
